@@ -17,3 +17,4 @@ sendApplicatiopn.loc = {\"locator\":\"xpath=.//*[@value='Send application']\",\"
 CountryDropdownOpened.loc = {\"locator\":\"xpath=//*[contains(@class,'has-active-dropdown')]\",\"desc\":\"Waiting for dropdown to get opened\"}
 gender.loc = {\"locator\":\"id=sex_0\",\"desc\":\"sex loc\"}
 EmptyEmailErrormessage.loc = {\"locator\":\"xpath=//*[text()='E-mail address is empty or incorrect']\",\"desc\":\"error message\"}
+CookieNotification.loc = {\"locator\":\"xpath=//*[@type='submit' and @value='Close']\",\"desc\":\"Cookie Notification\"}

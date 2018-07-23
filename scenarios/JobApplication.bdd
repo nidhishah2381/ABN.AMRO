@@ -6,6 +6,7 @@ META-DATA: {"description":"Jack Wants to apply for the Job at ABN.AMRO. So he fi
 	When click on 'Vacancies.loc'
 	When click on 'Vacancy.loc'
 	When click on 'Apply.loc'
+	And close 'CookieNotification.loc' if visible
 	When click on 'gender.loc'
 	And sendKeys 'M' into 'gender.loc'
 	And wait until 'sendApplicatiopn.loc' to be visible
