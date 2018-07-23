@@ -1,0 +1,21 @@
+SCENARIO: ABN.AMRO_JobApplication
+META-DATA: {"description":"Jack Wants to apply for the Job at ABN.AMRO. So he fills the Job application form for the same. He fills the email ID and we expect the smooth process without an error"}
+	Given get 'https://www.abnamro.com/en/index.html'
+	When click on 'Careers.loc'
+	And wait until 'Vacancies.loc' to be visible
+	When click on 'Vacancies.loc'
+	When click on 'Vacancy.loc'
+	When click on 'Apply.loc'
+	When click on 'gender.loc'
+	And sendKeys 'M' into 'gender.loc'
+	And wait until 'sendApplicatiopn.loc' to be visible
+	When click on 'firstname.loc'
+	When click on 'lastname.loc'
+	And wait until 'FirstNameErrorMessage' to be visible
+	Then assert 'FirstNameErrorMessage' is present
+	When click on 'lastname.loc'
+	And sendKeys 'Gates' into 'lastname.loc'	
+	When click on 'email.loc'
+	And sendKeys 'jack.gates@gmail.com' into 'email.loc'
+	Then assert 'EmptyEmailErrormessage.loc' is present		
+END

@@ -1,0 +1,22 @@
+#
+#Mon Jul 23 14:29:24 IST 2018
+Expertisearea.loc={\"locator\":\"xpath=//*[text()='Expertise area']\",\"desc\":\"Expertisearea loc\"}
+OrgFilterVerification={\"locator\":\"xpath=//*[text()='ABN AMRO Clearing']\",\"desc\":\"OrgFilterVerification\"}
+BusinessSupport.loc={\"locator\":\"xpath=//*[text()='Business Support']\",\"desc\":\"BusinessSupport loc\"}
+Typeofjob.loc={\"locator\":\"xpath=//*[text()='Type of job']\",\"desc\":\"Typeofjob loc\"}
+Organisation.loc={\"locator\":\"xpath=//*[text()='Organisation']\",\"desc\":\"Organisation loc\"}
+Sydney.loc={\"locator\":\"xpath=//*[text()='Sydney (2)']\",\"desc\":\"Sydney loc\"}
+Australia.loc={\"locator\":\"xpath=//*[text()='Australia']\",\"desc\":\"Australia loc\"}
+City.loc={\"locator\":\"xpath=//*[text()='City']\",\"desc\":\"City loc\"}
+English.loc={\"locator\":\"xpath=//*[text()='English']\",\"desc\":\"English loc\"}
+ABNAMROClearing.loc={\"locator\":\"xpath=//*[text()='ABN AMRO Clearing']\",\"desc\":\"ABNAMROClearing loc\"}
+CountryFilterVerification={\"locator\":\"xpath=//*[text()='Australia']\",\"desc\":\"CountryFilterVerification\"}
+Location.loc={\"locator\":\"xpath=//*[text()='Location']\",\"desc\":\"Location loc\"}
+Country.loc={\"locator\":\"xpath=//*[text()='Country']\",\"desc\":\"Country loc\"}
+Language.loc={\"locator\":\"xpath=//*[text()='Language']\",\"desc\":\"Language loc\"}
+Ok.loc={\"locator\":\"xpath=//*[text()='Ok']\",\"desc\":\"Ok loc\"}
+Professional.loc={\"locator\":\"xpath=//*[text()='Professional']\",\"desc\":\"Professional loc\"}
+LngFilterVerification={\"locator\":\"xpath=//*[text()='English']\",\"desc\":\"LngFilterVerification\"}
+CityFilterVerification={\"locator\":\"xpath=//*[text()='Sydney']\",\"desc\":\"CityFilterVerification\"}
+Vacancy.loc = {\"locator\":\"xpath=.//*[@class='result-summary vacancy-summary'][1]//a//span[@itemprop='title']\",\"desc\":\"Very first item of Vacancy list\"}
+Apply.loc = {\"locator\":\"xpath=//*[text()='Apply']\",\"desc\":\"Apply button\"}

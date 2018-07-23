@@ -1,0 +1,19 @@
+#
+#Mon Jul 23 14:29:24 IST 2018
+FirstNameErrorMessage={\"locator\":\"xpath=//*[text()='First name is empty']\",\"desc\":\"FirstNameErrorMessage\"}
+page1.loc={\"locator\":\"xpath=.//*[@id='vacancy-apply']/fieldset[1]\",\"desc\":\"page1 loc\"}
+Firstnameisempty.loc={\"locator\":\"xpath=//*[text()='First name is empty']\",\"desc\":\"Firstnameisempty loc\"}
+page0.loc={\"locator\":\"xpath=.//*[@id='vacancy-apply']/fieldset[1]\",\"desc\":\"page0 loc\"}
+CV.loc={\"locator\":\"id=CV\",\"desc\":\"CV loc\"}
+phone.loc={\"locator\":\"id=phone\",\"desc\":\"phone loc\"}
+UnitedStates.loc={\"locator\":\"xpath=//*[text()='United States']\",\"desc\":\"UnitedStates loc\"}
+firstname.loc={\"locator\":\"id=firstname\",\"desc\":\"firstname loc\"}
+Thefilemaynotbemorethan.MBandmusthavethefollowingextension.doc.pdf.docx.or.ppt.loc={\"locator\":\"xpath=//*[text()='The file may not be more than 2 MB and must have the following extension: '.doc', '.pdf', '.docx' or '.ppt'']\",\"desc\":\"Thefilemaynotbemorethan MBandmusthavethefollowingextension doc pdf docx or ppt loc\"}
+Nofilewasfound.Thefilewaseitheremptyorabsent.loc={\"locator\":\"xpath=//*[text()='No file was found. The file was either empty or absent.']\",\"desc\":\"Nofilewasfound Thefilewaseitheremptyorabsent loc\"}
+lastname.loc={\"locator\":\"id=lastname\",\"desc\":\"lastname loc\"}
+email.loc={\"locator\":\"id=email\",\"desc\":\"email loc\"}
+Country.loc={\"locator\":\"xpath=(//*[@class='dropdown']//*[@data-key='country'])[1]\",\"desc\":\"Country loc\"}
+sendApplicatiopn.loc = {\"locator\":\"xpath=.//*[@value='Send application']\",\"desc\":\"send Aplication button\"}
+CountryDropdownOpened.loc = {\"locator\":\"xpath=//*[contains(@class,'has-active-dropdown')]\",\"desc\":\"Waiting for dropdown to get opened\"}
+gender.loc = {\"locator\":\"id=sex_0\",\"desc\":\"sex loc\"}
+EmptyEmailErrormessage.loc = {\"locator\":\"xpath=//*[text()='E-mail address is empty or incorrect']\",\"desc\":\"error message\"}

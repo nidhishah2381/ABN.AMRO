@@ -8,11 +8,11 @@
 		</classes>
 	</test>
 
-	<test name="KWD Test" enabled="false">
+	<!-- <test name="KWD Test" enabled="false">
 		<classes>
 			<class name="com.qmetry.qaf.automation.step.client.csv.KwdTestFactory"></class>
 		</classes>
-	</test>
+	</test> -->
 
 
 </suite>
