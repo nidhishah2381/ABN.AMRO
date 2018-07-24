@@ -1,12 +1,12 @@
 SCENARIO: ABN.AMRO_JobApplication
 META-DATA: {"description":"Jack Wants to apply for the Job at ABN.AMRO. So he fills the Job application form for the same. He doesn't fill the email ID and we expect the error message"}
 	Given get 'https://www.abnamro.com/en/index.html'
+	And close 'CookieNotification.loc' if visible
 	When click on 'Careers.loc'
 	And wait until 'Vacancies.loc' to be visible
 	When click on 'Vacancies.loc'
 	When click on 'Vacancy.loc'
 	When click on 'Apply.loc'
-	And close 'CookieNotification.loc' if visible
 	When click on 'gender.loc'
 	And sendKeys 'M' into 'gender.loc'
 	And wait until 'sendApplicatiopn.loc' to be visible
