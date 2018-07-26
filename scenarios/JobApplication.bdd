@@ -21,5 +21,5 @@ META-DATA: {"description":"Jack Wants to apply for the Job at ABN.AMRO. So he fi
 	Then assert 'EmptyEmailErrormessage.loc' is present		
 	And sendKeys '7896541232' into 'phone.loc'
 	When click on 'page1.loc'
-	And upload file 'abn_amro.jpg' into 'CV.loc'
+	#And upload file 'abn_amro.jpg' into 'CV.loc'
 END
