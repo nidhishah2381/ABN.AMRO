@@ -18,5 +18,5 @@ META-DATA: {"description":"Jack Wants to apply for the Job at ABN.AMRO. So he fi
 	And sendKeys 'Gates' into 'lastname.loc'	
 	When click on 'email.loc'
 	And sendKeys 'jack.gates@gmail.com' into 'email.loc'
-	And wait until 'EmptyEmailErrormessage.loc' to be visible
+	#And wait until 'EmptyEmailErrormessage.loc' to be visible
 END
