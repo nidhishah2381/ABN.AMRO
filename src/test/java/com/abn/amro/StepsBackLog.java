@@ -3,7 +3,6 @@
  */
 package com.abn.amro;
 
-import com.qmetry.qaf.automation.step.NotYetImplementedException;
 import com.qmetry.qaf.automation.step.QAFTestStep;
 import com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement;
 

@@ -1,4 +1,4 @@
-SCENARIO: ABN.AMRO_JobApplication
+SCENARIO: ABN.AMRO_JobApplication_failed
 META-DATA: {"description":"Jack Wants to apply for the Job at ABN.AMRO. So he fills the Job application form for the same. He fills the email ID and we expect the smooth process without an error"}
 	Given get 'https://www.abnamro.com/en/index.html'
 	And close 'CookieNotification.loc' if visible

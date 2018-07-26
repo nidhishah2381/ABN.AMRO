@@ -1,7 +1,7 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-
 	<groupId>com.qmetry</groupId>
 	<artifactId>abn-amro</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -113,7 +113,44 @@
 					</systemPropertyVariables>
 				</configuration>
 			</plugin>
+
+			<plugin>
+
+				<groupId>com.qmetry</groupId>
+
+				<artifactId>qmetry-test-management-maven-plugin</artifactId>
+
+				<version>1.0.0</version>
+
+				<configuration>
+
+					<url>https://abnamrobank.qmetry.com</url>
+
+					<apikey>57gxL4fuyVOELxAe9pLphabofuYdNSX3AvXnApE4</apikey>
+
+					<filepath>test-results</filepath>
+
+					<format>qas/json</format>
+
+					<project>ABC</project>
+
+					<release></release>
+
+					<cycle></cycle>
+
+					<build></build>
+
+					<testsuite></testsuite>
+
+					<platform></platform>
+
+				</configuration>
+
+			</plugin>
+
 		</plugins>
+
+
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -144,4 +181,23 @@
 			</plugins>
 		</pluginManagement>
 	</build>
+	<pluginRepositories>
+
+		<pluginRepository>
+
+			<id>qmetry-test-management-maven-plugin-mvn-repo</id>
+
+			<url>https://raw.github.com/qmetry/qmetry-test-management-maven-plugin/mvn-repo/</url>
+
+			<snapshots>
+
+				<enabled>true</enabled>
+
+				<updatePolicy>always</updatePolicy>
+
+			</snapshots>
+
+		</pluginRepository>
+
+	</pluginRepositories>
 </project>
